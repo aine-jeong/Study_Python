@@ -8,6 +8,8 @@ class Exam(QWidget):
         super().__init__()
         self.initUI()
 
+    ## Confirm
+
     def initUI(self):
         btn = QPushButton('push me!', self)
         btn.resize(btn.sizeHint())

@@ -7,6 +7,8 @@ class Exam(QWidget):
         super().__init__()
         self.initUI()
 
+        ## 레이아웃 잡기 (Input 시스템 화면 구성만들기)
+
     def initUI(self):
 
         title = QLabel('Title')

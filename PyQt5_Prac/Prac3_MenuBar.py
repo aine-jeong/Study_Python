@@ -8,6 +8,8 @@ class Exam(QMainWindow):
         super().__init__()
         self.initUI()
 
+        ## 메뉴바 만들기
+
     def initUI(self):
         self.statusBar()
         self.statusBar().showMessage("안녕하세요")
